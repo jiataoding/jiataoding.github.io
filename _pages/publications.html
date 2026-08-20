@@ -5,32 +5,80 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=bGyUJrQAAAAJ&hl=en).
 
-{% include base_path %}
+## 2026
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+- **Towards Terrain-Aware Safe Locomotion for Quadrupedal Robots Using Proprioceptive Sensing.** Peiyu Yang, **Jiatao Ding**, Wei Pan, Claudio Semini, and Cosimo Della Santina. *arXiv preprint arXiv:2603.09585*, 2026. [arXiv](https://arxiv.org/abs/2603.09585)
 
+- **Symbolic Learning of Interpretable Reduced-Order Models for Jumping Quadruped Robots.** Gioele Buriani, Jingyue Liu, Maximilian Stölzle, Cosimo Della Santina, and **Jiatao Ding**. *IFAC Journal of Systems and Control*, 35:100360, 2026. [DOI](https://doi.org/10.1016/j.ifacsc.2025.100360)
 
+## 2025
 
+- **A Task-Driven, Planner-in-the-Loop Computational Design Framework for Modular Manipulators.** Maolin Lei, Edoardo Romiti, Arturo Laurenzi, Rui Dai, Matteo Dalle Vedove, **Jiatao Ding**, Daniele Fontanelli, and Nikos G. Tsagarakis. *arXiv preprint arXiv:2512.16069*, 2025. [arXiv](https://arxiv.org/abs/2512.16069)
+
+- **Explosive Jumping with Rigid and Articulated Soft Quadrupeds via Example Guided Reinforcement Learning.** Georgios Apostolides, Wei Pan, Jens Kober, Cosimo Della Santina, and **Jiatao Ding**. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 18903–18910, 2025. [DOI](https://doi.org/10.1109/IROS60139.2025.11247079)
+
+- **Versatile, Robust, and Explosive Locomotion with Rigid and Articulated Compliant Quadrupeds.** **Jiatao Ding**, Peiyu Yang, Fabio Boekel, Jens Kober, Wei Pan, Matteo Saveriano, and Cosimo Della Santina. *arXiv preprint arXiv:2504.12854*, 2025. [arXiv](https://arxiv.org/abs/2504.12854)
+
+- **On-the-Fly Jumping With Soft Landing: Leveraging Trajectory Optimization and Behavior Cloning.** Edoardo Panichi, **Jiatao Ding**, Vassil Atanassov, Peiyu Yang, Jens Kober, Wei Pan, and Cosimo Della Santina. *IEEE/ASME Transactions on Mechatronics*, 30(4):3142–3151, 2025. [DOI](https://doi.org/10.1109/TMECH.2025.3572176)
+
+- **Bio-inspired Multi-model Fusion Control for CPG-based Quadrupedal Locomotion.** Jianing Wu, Senwei Huang, Xiuli Zhang, and **Jiatao Ding**. *Advanced Robotics*, 39(18):1166–1181, 2025. [DOI](https://doi.org/10.1080/01691864.2025.2553102)
+
+- **Curriculum-Based Reinforcement Learning for Quadrupedal Jumping: A Reference-Free Design.** Vassil Atanassov, **Jiatao Ding**, Jens Kober, Ioannis Havoutis, and Cosimo Della Santina. *IEEE Robotics & Automation Magazine*, 32(2):35–48, 2025. [DOI](https://doi.org/10.1109/MRA.2024.3487325)
+
+- **Robust Humanoid Locomotion via Sequential Stepping and Angular Momentum Optimization.** **Jiatao Ding**, Cosimo Della Santina, Tin Lun Lam, Jianxin Pang, Xiaohui Xiao, Nikos G. Tsagarakis, and Yanlong Huang. *IEEE Transactions on Industrial Electronics*, 72(3):2779–2789, 2025. [DOI](https://doi.org/10.1109/TIE.2024.3433451)
+
+## 2024
+
+- **Two-Stage Learning of Highly Dynamic Motions with Rigid and Articulated Soft Quadrupeds.** Francesco Vezzi, **Jiatao Ding**, Antonin Raffin, Jens Kober, and Cosimo Della Santina. *IEEE International Conference on Robotics and Automation (ICRA)*, 2024. [DOI](https://doi.org/10.1109/ICRA57147.2024.10610561)
+
+- **Robust Quadrupedal Jumping with Impact-Aware Landing: Exploiting Parallel Elasticity.** **Jiatao Ding**, Vassil Atanassov, Edoardo Panichi, Jens Kober, and Cosimo Della Santina. *IEEE Transactions on Robotics*, 40:3212–3231, 2024.
+
+- **Delft E-Go Quadrupedal Robot: Parallel Compliance Design, Control, and Validation.** **Jiatao Ding**, P. Posthoorn, Vassil Atanassov, Fabio Boekel, Jens Kober, and Cosimo Della Santina. *IEEE/ASME Transactions on Mechatronics*, 29(4):2886–2894, 2024.
+
+- **A Novel Optimization Design of Dual-slide Parallel Elastic Actuator for Legged Robots.** S. Liu, **Jiatao Ding**, C. Lu, Z. Wang, B. Su, and Z. Guo. *IEEE/ASME Transactions on Mechatronics*, 29(4):2839–2848, 2024.
+
+- **Robust Jumping With an Articulated Soft Quadruped Via Trajectory Optimization and Iterative Learning.** **Jiatao Ding**, Mees A. van Löben Sels, Franco Angelini, Jens Kober, and Cosimo Della Santina. *IEEE Robotics and Automation Letters*, 9(1):255–262, 2024. [DOI](https://doi.org/10.1109/LRA.2023.3331288)
+
+## 2023
+
+- **Safe and Adaptive 3-D Locomotion via Constrained Task-Space Imitation Learning.** **Jiatao Ding**, Tin Lun Lam, Ligang Ge, Jianxin Pang, and Yanlong Huang. *IEEE/ASME Transactions on Mechatronics*, 28(6):3029–3040, 2023. [DOI](https://doi.org/10.1109/TMECH.2023.3239099)
+
+## 2022
+
+- **Robust Locomotion Exploiting Multiple Balance Strategies: An Observer-Based Cascaded Model Predictive Control Approach.** **Jiatao Ding**, Linyan Han, Ligang Ge, Yizhang Liu, and Jianxin Pang. *IEEE/ASME Transactions on Mechatronics*, 27(4):2089–2097, 2022. [DOI](https://doi.org/10.1109/TMECH.2022.3173805)
+
+## 2021
+
+- **Versatile Locomotion by Integrating Ankle, Hip, Stepping, and Height Variation Strategies.** **Jiatao Ding**, Songyan Xin, Tin Lun Lam, and Sethu Vijayakumar. *IEEE International Conference on Robotics and Automation (ICRA)*, pp. 2957–2963, 2021.
+
+- **Nonlinear Model Predictive Control for Robust Bipedal Locomotion: Exploring Angular Momentum and CoM Height Changes.** **Jiatao Ding**, Chengxu Zhou, Songyan Xin, Xiaohui Xiao, and Nikos G. Tsagarakis. *Advanced Robotics*, 35(18):1079–1097, 2021.
+
+- **Energy-Efficient Bipedal Walking: From Single-Mass Model to Three-Mass Model.** **Jiatao Ding**, Jiangchen Zhou, Zhao Guo, and Xiaohui Xiao. *Robotica*, 39(9):1537–1559, 2021. [DOI](https://doi.org/10.1017/S0263574720001320)
+
+## 2020
+
+- **Robust Gait Synthesis Combining Constrained Optimization and Imitation Learning.** **Jiatao Ding**, Xiaohui Xiao, Nikos G. Tsagarakis, and Yanlong Huang. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 3473–3480, 2020.
+
+- **Two-Stage Optimization for Energy-Efficient Bipedal Walking.** **Jiatao Ding** and Xiaohui Xiao. *Journal of Mechanical Science and Technology*, 34(9):3833–3844, 2020.
+
+## 2019
+
+- **Nonlinear Optimization of Step Duration and Step Location.** **Jiatao Ding**, Xiaohui Xiao, and Nikos G. Tsagarakis. *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 2259–2265, 2019.
+
+- **Versatile Reactive Bipedal Locomotion Planning Through Hierarchical Optimization.** **Jiatao Ding**, Chengxu Zhou, Zhao Guo, Xiaohui Xiao, and Nikos G. Tsagarakis. *IEEE International Conference on Robotics and Automation (ICRA)*, pp. 256–262, 2019.
+
+## 2018
+
+- **Energy-Efficient Bipedal Gait Pattern Generation via CoM Acceleration Optimization.** **Jiatao Ding**, Chengxu Zhou, and Xiaohui Xiao. *IEEE-RAS International Conference on Humanoid Robots (Humanoids)*, pp. 238–244, 2018.
+
+- **Walking Stabilization Control for Humanoid Robots on Unknown Slope Based on Walking Sequences Adjustment.** **Jiatao Ding**, Y. Wang, M. Yang, and Xiaohui Xiao. *Journal of Intelligent & Robotic Systems*, 90(3):323–338, 2018.
+
+## 2017
+
+- **Robust Real-Time Walking Pattern Generation with Dynamical Consistency: An Analytical Method Combined with Optimal Solution.** **Jiatao Ding**, M. Yang, J. Zhou, D. Yao, and Xiaohui Xiao. *IEEE International Conference on Robotics and Biomimetics (ROBIO)*, pp. 1806–1811, 2017.
+
+## 2015
+
+- **Preview Control with an Angle Adjustment Strategy for Robust Real-Time Biped Walking Pattern Generation.** **Jiatao Ding**, Xiaohui Xiao, Y. Wang, and B. Xu. *International Conference on Intelligent Robotics and Applications*, pp. 321–332, 2015.
