@@ -39,6 +39,15 @@ Collaboration established during my postdoctoral research at TU Delft.
 
 Collaboration established during my postdoctoral research at TU Delft.
 
+## University of Leeds, United Kingdom
+
+**Robotics at Leeds / Artificial Intelligence and Robotics**  
+**Prof. Yanlong Huang**  
+[Faculty Profile](https://eps.leeds.ac.uk/computing/staff/8178/dr-yanlong-huang)
+
+Collaboration on imitation learning and legged locomotion.
+
+
 ## The Chinese University of Hong Kong, Shenzhen & AIRS, China
 
 **Robotics & AI Lab / Center for Intelligent Robots**  
@@ -63,13 +72,6 @@ Collaboration established during my time at AIRS.
 
 Collaboration established during my visiting PhD fellowship at IIT.
 
-## University of Leeds, United Kingdom
-
-**Robotics at Leeds / Artificial Intelligence and Robotics**  
-**Dr. Yanlong Huang**  
-[Faculty Profile](https://eps.leeds.ac.uk/computing/staff/8178/dr-yanlong-huang)
-
-Collaboration on robot learning, imitation learning, optimal control, and legged locomotion.
 
 
 
