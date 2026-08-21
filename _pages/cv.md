@@ -53,30 +53,28 @@ Outstanding Graduate
 
 ## Selected Research Experience
 
-**Safe Learning and Control for Legged Robots**  
-European H2020 Project *Natural Intelligence (NI)*  
+**Safe Learning and Control for Contact-rich Robots**  
+European H2020 Project *INVERSE*
+
 - Safe reinforcement learning and safety-critical control.
-- Safety-certificate-based locomotion control for legged robots.
-- Learning and control for robust and dynamic legged locomotion.
+- Differentiable optimization.
+
 
 **Compliant Quadrupedal Robotics**  
-European H2020 Project *Natural Intelligence (NI)*  
-- Design and validation of quadrupedal robots with parallel elastic actuation.
-- Iterative learning control for repetitive quadrupedal jumping.
-- Impact-aware jumping and landing control.
-- Reinforcement-learning-based acquisition of dynamic jumping skills.
+European H2020 Project *Natural Intelligence (NI)*
+
+- Quadrupedal robots with parallel elastic actuation.
+- Iterative learning control for dynamic jumping.
+- Impact-aware explosive motion control.
+- Reinforcement-learning-based dynamic locomotion.
+
 
 **Mobile Collaborative Robotics**  
-International Collaborative Project  
-- Observer-based nonlinear model predictive control for robust humanoid locomotion.
-- Hierarchical optimization combining ankle, hip, and stepping strategies.
-- Constraint-aware imitation learning for safe 3-D locomotion.
+International Collaborative Project
 
-**Humanoid Locomotion and Interaction**  
-European H2020 Project *CogIMon*  
-- Nonlinear optimization and imitation learning for human-like swing-leg motion.
-- Cascaded control integrating ankle, hip, stepping, and height-variation strategies.
-- Nonlinear model predictive control exploiting CoM height and angular momentum variations.
+- Observer-based nonlinear MPC for robust humanoid locomotion.
+- Hierarchical optimization for versatile and robust locomotion.
+- Constraint-aware imitation learning for safe locomotion.
 
 ## Teaching and Supervision
 
