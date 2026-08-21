@@ -62,3 +62,15 @@ Collaboration established during my time at AIRS.
 [Research Line](https://www.iit.it/research/lines/humanoids-human-centered-mechatronics)
 
 Collaboration established during my visiting PhD fellowship at IIT.
+
+## University of Leeds, United Kingdom
+
+**Robotics at Leeds / Artificial Intelligence and Robotics**  
+**Dr. Yanlong Huang**  
+[Faculty Profile](https://eps.leeds.ac.uk/computing/staff/8178/dr-yanlong-huang)
+
+Collaboration on robot learning, imitation learning, optimal control, and legged locomotion.
+
+
+
+
