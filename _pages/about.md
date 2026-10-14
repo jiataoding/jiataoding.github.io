@@ -80,21 +80,9 @@ My research interests broadly lie in **robot learning, optimal control, and legg
     <figcaption>Frog-inspired Jumping</figcaption>
   </figure>
   <figure>
-    <video controls muted loop playsinline preload="metadata" aria-label="Omnidirectional Jumping">
-      <source src="{{ '/videos/quadruped_omnidir_jumping.mp4' | relative_url }}" type="video/mp4">
+    <video controls muted loop playsinline preload="metadata" aria-label="Safety-critical Gear Meshing">
+      <source src="{{ '/videos/gear_meshing_mosaic.mp4' | relative_url }}" type="video/mp4">
     </video>
-    <figcaption>Omnidirectional Jumping</figcaption>
-  </figure>
-  <figure>
-    <video controls muted loop playsinline preload="metadata" aria-label="Robust Jumping">
-      <source src="{{ '/videos/quadruped_robust_jumping.mp4' | relative_url }}" type="video/mp4">
-    </video>
-    <figcaption>Robust Jumping</figcaption>
-  </figure>
-  <figure>
-    <video controls muted loop playsinline preload="metadata" aria-label="Safe Stair Climbing">
-      <source src="{{ '/videos/quadruped_safe_stair_climbing.mp4' | relative_url }}" type="video/mp4">
-    </video>
-    <figcaption>Safe Stair Climbing</figcaption>
+    <figcaption>Safety-critical Gear Meshing</figcaption>
   </figure>
 </div>
