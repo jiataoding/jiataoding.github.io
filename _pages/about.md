@@ -14,3 +14,87 @@ I received my PhD in **Mechatronic Engineering** from **Wuhan University**, Chin
 I serve as an **Associate Editor of IEEE Robotics and Automation Letters (RA-L)** and regularly review for leading robotics and control journals and conferences, including **IEEE T-RO, T-MECH, T-IE, T-ASE, RA-L, RSS, ICRA, IROS, and L4DC**.
 
 My research interests broadly lie in **robot learning, optimal control, and legged robotics**.
+
+<style>
+.research-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin: 24px 0;
+}
+.research-video-grid figure {
+  margin: 0;
+  min-width: 0;
+}
+.research-video-grid video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+  border-radius: 8px;
+}
+.research-video-grid figcaption {
+  margin-top: 8px;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .research-video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="research-video-grid">
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Humanoid Push Recovery">
+      <source src="{{ '/videos/humanoid_push_recovery.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Humanoid Push Recovery</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Safe Humanoid Locomotion">
+      <source src="{{ '/videos/humanoid_safe_loco.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Safe Humanoid Locomotion</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Compliant Landing">
+      <source src="{{ '/videos/quadruped_compliant_landing.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Compliant Landing</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Explosive Jumping">
+      <source src="{{ '/videos/quadruped_explosive_jumping.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Explosive Jumping</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Frog-inspired Jumping">
+      <source src="{{ '/videos/quadruped_froggy_jumping.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Frog-inspired Jumping</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Omnidirectional Jumping">
+      <source src="{{ '/videos/quadruped_omnidir_jumping.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Omnidirectional Jumping</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Robust Jumping">
+      <source src="{{ '/videos/quadruped_robust_jumping.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Robust Jumping</figcaption>
+  </figure>
+  <figure>
+    <video controls muted loop playsinline preload="metadata" aria-label="Safe Stair Climbing">
+      <source src="{{ '/videos/quadruped_safe_stair_climbing.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Safe Stair Climbing</figcaption>
+  </figure>
+</div>
